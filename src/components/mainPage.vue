@@ -115,6 +115,7 @@
       <h1 class="text-6xl font-bold">
         Hiring Great
         <span class="section-heading"> Remote <br />Developers </span>
+        <span class="section-heading">Hello World</span>
         is Hard
       </h1>
 
