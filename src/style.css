@@ -12,10 +12,10 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-white text-black rounded-full px-7 py-3 w-auto;
+    @apply bg-white text-black rounded-full px-5 py-3 w-auto;
   }
   .btn-primary > svg {
-    @apply ml-5;
+    @apply ml-3;
   }
 
   .section-heading {
@@ -23,7 +23,7 @@
   }
 
   .card {
-    @apply bg-[#151516] w-full px-7 py-20 text-2xl rounded-md;
+    @apply bg-[#151516] w-full pl-10 py-12 text-[26px] rounded-md;
   }
   .text-card {
     @apply px-10 rounded-md h-full py-10;
@@ -41,14 +41,19 @@
 
 @layer components {
   .person {
-    @apply p-32 bg-[#151515] mr-1 rounded-sm;
+    @apply px-28 py-16 bg-[#151515] mr-1 rounded-sm;
   }
-  .person > h1 {
-    @apply text-xl font-medium;
+  .person > img {
+    @apply mb-20;
   }
-  .person > h2 {
-    @apply text-lg text-[#AAAAAA];
+
+  .person > .person-content > div > h1 {
+    @apply text-xl font-medium mr-3;
   }
+
+  /* .person > .person-content > div > h2 {
+    @apply text-lg text-[#AAAAAA] w-96;
+  } */
 }
 
 @layer components {
@@ -78,3 +83,5 @@
     @apply w-16 h-20;
   }
 }
+
+/* git push https://<GITHUB_ACCESS_TOKEN>@github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git */
