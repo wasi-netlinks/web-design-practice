@@ -1,7 +1,7 @@
 <template>
   <main class="py-32">
     <!-- This is Team Section -->
-    <section class="mt-40">
+    <section class="mt-10">
       <h1 class="text-center text-5xl font-bold">
         Here's a Few Micro1 <br />
         <span

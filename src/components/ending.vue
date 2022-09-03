@@ -14,12 +14,12 @@
           </p>
         </div>
         <div class="grid grid-cols-5">
-          <div class="dashed-d border-b-[1px] border-[#464646] border-dashed p-5"></div>
-          <div class="dashed-d border-l-[1px] border-[#464646] border-dashed p-5"></div>
-          <div class="dashed-d border-l-[1px] border-[#464646] border-dashed p-5"></div>
-          <div class="dashed-d border-l-[1px] border-[#464646] border-dashed p-5"></div>
-          <div class="dashed-d border-l-[1px] border-[#464646] border-dashed p-5"></div>
-          <div class="dashed-d border-b-[1px] border-[#464646] border-dashed p-5"></div>
+          <div class="dashed-d border-b-[1px] border-[#464646] border-dashed p-3"></div>
+          <div class="dashed-d border-l-[1px] border-[#464646] border-dashed p-3"></div>
+          <div class="dashed-d border-l-[1px] border-[#464646] border-dashed p-3"></div>
+          <div class="dashed-d border-l-[1px] border-[#464646] border-dashed p-3"></div>
+          <div class="dashed-d border-l-[1px] border-[#464646] border-dashed p-3"></div>
+          <div class="dashed-d border-b-[1px] border-[#464646] border-dashed p-3"></div>
           <div
             class="dashed-d border border-[#464646] border-dashed p-10 bg-[#0AA9F8] rounded-br-[70px]"
           >
@@ -33,36 +33,36 @@
           <div class="dashed-d border border-[#464646] border-dashed p-5 bg-[#EDDD27]">
             <img src="../assets/New folder/3.png" class="w-24" alt="" />
           </div>
-          <div class="dashed-d border-t border-[#464646] border-dashed p-5"></div>
-          <div class="dashed-d border-t border-[#464646] border-dashed p-5"></div>
-          <div class="dashed-d border border-[#464646] border-dashed p-5">
+          <div class="dashed-d border-t border-[#464646] border-dashed p-3"></div>
+          <div class="dashed-d border-t border-[#464646] border-dashed p-3"></div>
+          <div class="dashed-d border border-[#464646] border-dashed p-3">
             <img src="../assets/New folder/4.png" class="w-24" alt="" />
           </div>
-          <div class="dashed-d border border-[#464646] border-dashed p-5">
+          <div class="dashed-d border border-[#464646] border-dashed p-3">
             <img src="../assets/New folder/5.png" alt="" />
           </div>
-          <div class="dashed-d border border-[#464646] border-dashed p-5">
+          <div class="dashed-d border border-[#464646] border-dashed p-3">
             <img src="../assets/New folder/6.png" alt="" />
           </div>
-          <div class="dashed-d border-t border-[#464646] border-dashed p-5"></div>
-          <div class="dashed-d border-t border-[#464646] border-dashed p-5"></div>
+          <div class="dashed-d border-t border-[#464646] border-dashed p-3"></div>
+          <div class="dashed-d border-t border-[#464646] border-dashed p-3"></div>
           <div
-            class="dashed-d border border-[#464646] border-dashed p-5 bg-[#5E80EB] rounded-tr-full"
+            class="dashed-d border border-[#464646] border-dashed p-3 bg-[#5E80EB] rounded-tr-full"
           >
             <img src="../assets/New folder/7.png" alt="" />
           </div>
           <div
-            class="dashed-d border border-[#464646] border-dashed p-5 bg-[#3770A5] rounded-t-full"
+            class="dashed-d border border-[#464646] border-dashed p-3 bg-[#3770A5] rounded-t-full"
           >
             <img src="../assets/New folder/8.png" alt="" />
           </div>
-          <div class="dashed-d border border-[#464646] border-dashed p-5"></div>
-          <div class="dashed-d border-t border-[#464646] border-dashed p-5"></div>
-          <div class="dashed-d border-t border-[#464646] border-dashed p-5"></div>
-          <div class="dashed-d border-l border-[#464646] border-dashed p-5"></div>
-          <div class="dashed-d border-l border-[#464646] border-dashed p-5"></div>
-          <div class="dashed-d border-l border-[#464646] border-dashed p-5"></div>
-          <div class="dashed-d border-l border-[#464646] border-dashed p-5"></div>
+          <div class="dashed-d border border-[#464646] border-dashed p-3"></div>
+          <div class="dashed-d border-t border-[#464646] border-dashed p-3"></div>
+          <div class="dashed-d border-t border-[#464646] border-dashed p-3"></div>
+          <div class="dashed-d border-l border-[#464646] border-dashed p-3"></div>
+          <div class="dashed-d border-l border-[#464646] border-dashed p-3"></div>
+          <div class="dashed-d border-l border-[#464646] border-dashed p-3"></div>
+          <div class="dashed-d border-l border-[#464646] border-dashed p-3"></div>
         </div>
       </div>
 
@@ -122,61 +122,7 @@
 </template>
 
 <script>
-import cardSection from "./cards.vue";
 export default {
   name: "ending",
 };
 </script>
-
-<!-- <div class="grid grid-cols-5">
-  <div class="dashed-d border-b-[1px] border-[#464646] border-dashed p-5"></div>
-  <div class="dashed-d border-l-[1px] border-[#464646] border-dashed p-5"></div>
-  <div class="dashed-d border-l-[1px] border-[#464646] border-dashed p-5"></div>
-  <div class="dashed-d border-l-[1px] border-[#464646] border-dashed p-5"></div>
-  <div class="dashed-d border-l-[1px] border-[#464646] border-dashed p-5"></div>
-  <div class="dashed-d border-b-[1px] border-[#464646] border-dashed p-5"></div>
-  <div
-    class="dashed-d border border-[#464646] border-dashed p-10 bg-[#0AA9F8] rounded-br-[70px]"
-  >
-    <img src="../assets/New folder/1.png" class="w-24" alt="" />
-  </div>
-  <div
-    class="dashed-d border border-[#464646] border-dashed p-5 bg-[#4353FF] rounded-b-[70px]"
-  >
-    <img src="../assets/New folder/2.png" class="w-24" alt="" />
-  </div>
-  <div class="dashed-d border border-[#464646] border-dashed p-5 bg-[#EDDD27]">
-    <img src="../assets/New folder/3.png" class="w-24" alt="" />
-  </div>
-  <div class="dashed-d border-t border-[#464646] border-dashed p-5"></div>
-  <div class="dashed-d border-t border-[#464646] border-dashed p-5"></div>
-  <div class="dashed-d border border-[#464646] border-dashed p-5">
-    <img src="../assets/New folder/4.png" class="w-24" alt="" />
-  </div>
-  <div class="dashed-d border border-[#464646] border-dashed p-5">
-    <img src="../assets/New folder/5.png" alt="" />
-  </div>
-  <div class="dashed-d border border-[#464646] border-dashed p-5">
-    <img src="../assets/New folder/6.png" alt="" />
-  </div>
-  <div class="dashed-d border-t border-[#464646] border-dashed p-5"></div>
-  <div class="dashed-d border-t border-[#464646] border-dashed p-5"></div>
-  <div
-    class="dashed-d border border-[#464646] border-dashed p-5 bg-[#5E80EB] rounded-tr-full"
-  >
-    <img src="../assets/New folder/7.png" alt="" />
-  </div>
-  <div
-    class="dashed-d border border-[#464646] border-dashed p-5 bg-[#3770A5] rounded-t-full"
-  >
-    <img src="../assets/New folder/8.png" alt="" />
-  </div>
-  <div class="dashed-d border border-[#464646] border-dashed p-5"></div>
-  <div class="dashed-d border-t border-[#464646] border-dashed p-5"></div>
-  <div class="dashed-d border-t border-[#464646] border-dashed p-5"></div>
-  <div class="dashed-d border-l border-[#464646] border-dashed p-5"></div>
-  <div class="dashed-d border-l border-[#464646] border-dashed p-5"></div>
-  <div class="dashed-d border-l border-[#464646] border-dashed p-5"></div>
-  <div class="dashed-d border-l border-[#464646] border-dashed p-5"></div>
-</div>
-</div> -->

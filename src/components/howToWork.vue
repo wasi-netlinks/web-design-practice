@@ -1,11 +1,17 @@
 <template>
   <main class="">
     <!-- This is How to work Section -->
-    <section class="mt-72 flex">
+    <section class="mt-24 flex">
       <div class="grid grid-cols-3">
         <div class="w-full">
-          <h1 class="text-5xl">How it <span class="section-heading">works</span></h1>
-          <p class="text-xl my-20">
+          <h1 class="text-5xl font-bold">
+            How it
+            <span
+              class="text-transparent bg-clip-text bg-gradient-to-r from-[#337EFF] to-[#33E8EB]"
+              >Works</span
+            >
+          </h1>
+          <p class="text-xl my-10">
             Each developer at micro1 gose through a series of tests and interviews before
             becoming micro1 certified. You also get 1 week free to test the developer out
             for yourself.

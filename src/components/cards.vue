@@ -1,6 +1,5 @@
 <template>
   <main class="cardSection">
-    <!-- This is Cards Secion -->
     <section class="">
       <h1 class="text-6xl font-bold">
         Hiring Great
@@ -31,19 +30,23 @@
 
       <div class="grid grid-cols-3 gap-4">
         <div>
-          <div class="w-1 h-40 bg-gradient-to-b from-green-800 to-blue-900 ml-40"></div>
-          <p
-            class="text-5xl text-transparent font-bold bg-clip-text bg-gradient-to-r from-white to-green-500 ml-10 w-14;"
-          >
-            We Make
-          </p>
-          <p
-            class="text-5xl text-transparent font-bold bg-clip-text bg-gradient-to-r from-white to-green-500 ml-10 w-14;"
-          >
-            it Easy
-          </p>
           <div
-            class="w-1 h-20 font-bold bg-gradient-to-r from-green-800 to-blue-900 ml-40"
+            class="w-[2px] h-40 bg-gradient-to-b from-[#33FFE7] to-[#337EFF40] ml-40"
+          ></div>
+          <div class="my-5">
+            <p
+              class="text-5xl text-transparent font-bold bg-clip-text bg-gradient-to-r from-white to-green-500 ml-10 w-14;"
+            >
+              We Make
+            </p>
+            <p
+              class="text-5xl text-transparent font-bold bg-clip-text bg-gradient-to-r from-white to-green-500 ml-10 w-14;"
+            >
+              it Easy
+            </p>
+          </div>
+          <div
+            class="w-[2px] h-20 font-bold bg-gradient-to-b from-[#337EFF40] to-[#33FFE7] ml-40"
           ></div>
         </div>
 
@@ -87,7 +90,9 @@
             and everything else.
           </h3>
         </div>
-        <div class="w-1 h-full bg-gradient-to-b from-green-800 to-blue-900 ml-32"></div>
+        <div
+          class="w-[2px] h-full bg-gradient-to-b from-[#33FFE7] to-[#337EFF40] ml-32"
+        ></div>
       </div>
     </section>
   </main>
