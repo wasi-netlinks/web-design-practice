@@ -1,7 +1,7 @@
 <template>
   <main class="">
     <nav class="flex items-center py-10 justify-between">
-      <ul class="flex justify-around text-sm w-6/12">
+      <ul class="flex text-sm w-6/12">
         <li class="border-r-[1px] border-[#555353] pr-5">
           <a href="#"><img src="../image 1.png" alt="" /></a>
         </li>
@@ -29,7 +29,7 @@
         >
         from $25/hour
       </h1>
-      <p class="my-5 text-xl text-[#AAAAAA]">
+      <p class="my-8 text-xl text-[#AAAAAA]">
         The first week of your hire is 100% Free. No question asked
       </p>
       <div class="flex items-center w-full">
@@ -84,14 +84,14 @@
       </div>
     </section>
 
-    <div class="h-24"></div>
+    <div class="h-28"></div>
 
     <!-- This is Companys Brands Section -->
     <div class="flex justify-center mb-10">
       <p>Trusted Partners</p>
     </div>
     <div class="border-y-2 border-gray-600">
-      <ul class="flex justify-around items-center py-5">
+      <ul class="flex justify-around items-center py-8">
         <li>
           <a href="#"><img src="../assets/barand-images/image 2.png" alt="" /></a>
         </li>

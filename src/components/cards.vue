@@ -3,11 +3,15 @@
     <section class="">
       <h1 class="text-6xl font-bold">
         Hiring Great
-        <span class="section-heading"> Remote <br />Developers </span>
+        <span
+          class="text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#0C86D7] to-[#46B493]"
+        >
+          Remote <br />Developers
+        </span>
         is Hard
       </h1>
 
-      <div class="grid grid-cols-3 gap-4 pt-10">
+      <div class="grid grid-cols-3 gap-4 pt-14">
         <div class="card">
           <img src="../assets/vector-images/User.png" alt="" />
           <p class="mt-10 w-[212px]">
@@ -16,13 +20,13 @@
         </div>
         <div class="card">
           <img src="../assets/vector-images/User1.png" alt="" />
-          <p class="mt-10 w-[212px]">
+          <p class="mt-10 w-[255px]">
             Hiring from different countries in a compliant manner
           </p>
         </div>
         <div class="card">
           <img src="../assets/vector-images/User2.png" alt="" />
-          <p class="mt-10 w-[212px]">Providing the necessary benefits & pay</p>
+          <p class="mt-10 w-[255px]">Providing the necessary benefits & pay</p>
         </div>
       </div>
 
@@ -77,7 +81,7 @@
             worry about creating an entity in the country of hire and you don't have to
             worry about the local laws. We take care of all this for you.
           </h3>
-          <h2 class="mt-10">03.</h2>
+          <h2 class="mt-24">03.</h2>
         </div>
 
         <div class="text-card bg-cover bg-[url('assets/text-cards-images/4.svg')]">

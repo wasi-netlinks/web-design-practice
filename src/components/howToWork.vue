@@ -166,7 +166,6 @@
 </template>
 
 <script>
-import cardSection from "./cards.vue";
 export default {
   name: "howToWorks",
 };

@@ -12,7 +12,7 @@
 
       <div class="grid grid-cols-3 mt-20">
         <div class="person">
-          <img src="../assets/person/1.png" alt="" />
+          <img src="../assets/person-images/1.png" alt="" />
           <div class="person-content flex flex-col text-center">
             <div class="flex">
               <h1>Jack James</h1>
@@ -25,7 +25,7 @@
         </div>
 
         <div class="person">
-          <img src="../assets/person/2.png" alt="" />
+          <img src="../assets/person-images/2.png" alt="" />
           <div class="person-content flex flex-col text-center">
             <div class="flex text-center justify-center">
               <h1>Layla Robert</h1>
@@ -36,7 +36,7 @@
         </div>
 
         <div class="person">
-          <img src="../assets/person/3.png" alt="" />
+          <img src="../assets/person-images/3.png" alt="" />
           <div class="person-content flex flex-col text-center">
             <div class="flex justify-center text-center">
               <h1>David Mark</h1>

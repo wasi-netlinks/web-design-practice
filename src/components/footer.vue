@@ -5,20 +5,20 @@
 
       <div class="awards-main flex justify-around">
         <div class="circle">
-          <img src="../assets/awards/1.png" alt="" />
+          <img src="../assets/awards-images/1.png" alt="" />
         </div>
 
         <div class="circle">
-          <img src="../assets/awards/2.png" alt="" />
+          <img src="../assets/awards-images/2.png" alt="" />
         </div>
         <div class="circle">
-          <img src="../assets/awards/3.png" alt="" />
+          <img src="../assets/awards-images/3.png" alt="" />
         </div>
         <div class="circle">
-          <img src="../assets/awards/4.png" alt="" />
+          <img src="../assets/awards-images/4.png" alt="" />
         </div>
         <div class="circle">
-          <img src="../assets/awards/5.png" alt="" />
+          <img src="../assets/awards-images/5.png" alt="" />
         </div>
       </div>
 
