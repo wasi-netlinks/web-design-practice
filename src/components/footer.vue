@@ -7,7 +7,6 @@
         <div class="circle">
           <img src="../assets/awards-images/1.png" alt="" />
         </div>
-
         <div class="circle">
           <img src="../assets/awards-images/2.png" alt="" />
         </div>
@@ -22,33 +21,43 @@
         </div>
       </div>
 
-      <div class="footer-design mt-10 flex items-center">
-        <div class="bg-[#337EFF] w-[2px] h-[9px]"></div>
-        <div
-          class="bg-gradient-to-r from-blue-400 to-[#33FFE7] w-[1151px] h-[3px] flex justify-around"
-        >
-          <div class="line mb-20">
-            <div class="bg-[#FFFFFF] w-[5] h-[5px]"></div>
-            <div class="bg-[#262626] w-[5px] h-[5px]"></div>
+      <div>
+        <div class="flex justify-around w-full">
+          <div class="mt-20">
+            <div class="bg-[#FFFFFF] w-[2px] h-[3px]"></div>
+            <div class="bg-[#262626] w-[2px] h-[5px]"></div>
           </div>
-          <div class="line mb-20">
-            <div class="bg-[#FFFFFF] w-[5] h-[5px]"></div>
-            <div class="bg-[#262626] w-[5px] h-[5px]"></div>
+          <div class="mt-20">
+            <div class="bg-[#FFFFFF] w-[2px] h-[3px]"></div>
+            <div class="bg-[#262626] w-[2px] h-[5px]"></div>
           </div>
-          <div class="line mb-20">
-            <div class="bg-[#FFFFFF] w-[5] h-[5px]"></div>
-            <div class="bg-[#262626] w-[5px] h-[5px]"></div>
+          <div class="mt-20">
+            <div class="bg-[#FFFFFF] w-[2px] h-[3px]"></div>
+            <div class="bg-[#262626] w-[2px] h-[5px]"></div>
           </div>
-          <div class="line mb-20">
-            <div class="bg-[#FFFFFF] w-[5] h-[5px]"></div>
-            <div class="bg-[#262626] w-[5px] h-[5px]"></div>
+          <div class="mt-20">
+            <div class="bg-[#FFFFFF] w-[2px] h-[3px]"></div>
+            <div class="bg-[#262626] w-[2px] h-[5px]"></div>
           </div>
-          <div class="line mb-20">
-            <div class="bg-[#FFFFFF] w-[5] h-[5px]"></div>
-            <div class="bg-[#262626] w-[5px] h-[5px]"></div>
+          <div class="mt-20">
+            <div class="bg-[#FFFFFF] w-[2px] h-[3px]"></div>
+            <div class="bg-[#262626] w-[2px] h-[5px]"></div>
           </div>
         </div>
-        <div class="bg-[#33FFE7] w-[2px] h-[9px]"></div>
+
+        <div class="flex justify-between items-center">
+          <div class="bg-[#337EFF] w-[2px] h-[9px]"></div>
+          <div
+            class="bg-gradient-to-r from-blue-400 to-[#33FFE7] w-[1151px] h-[3px] flex justify-around"
+          ></div>
+          <div class="bg-[#33FFE7] w-[2px] h-[9px]"></div>
+        </div>
+      </div>
+
+      <div class="flex justify-between py-5">
+        <h1>2020</h1>
+        <h1>2021</h1>
+        <h1>2022</h1>
       </div>
     </section>
   </main>
