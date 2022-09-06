@@ -3,7 +3,7 @@
     <!-- This is How to work Section -->
     <section class="mt-24 flex">
       <div class="grid grid-cols-3">
-        <div class="w-full">
+        <div class="">
           <h1 class="text-5xl font-bold">
             How it
             <span
@@ -11,40 +11,19 @@
               >Works</span
             >
           </h1>
-          <p class="text-xl my-10">
+          <p class="text-2xl leading-10 mt-8 text-[#AAAAAA]">
             Each developer at micro1 gose through a series of tests and interviews before
             becoming micro1 certified. You also get 1 week free to test the developer out
             for yourself.
           </p>
-          <button class="btn-primary flex">
+          <button class="btn-primary flex mt-11">
             Hire Top Talent
 
-            <svg
-              width="24"
-              height="25"
-              viewBox="0 0 24 25"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M14.4299 6.42993L20.4999 12.4999L14.4299 18.5699"
-                stroke="#292D32"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M3.5 12.5H20.33"
-                stroke="#292D32"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                stroke-linejoin="round"
-              />
-            </svg>
+            <i class="isax isax-arrow-right-1 text-xl text-black ml-2"></i>
           </button>
         </div>
 
-        <div class="icons grid place-item-center justify-around">
+        <div class="icons flex flex-col items-center ml-20">
           <div class="bg-white w-12 h-12 flex rounded-3xl">
             <svg
               class="m-auto"
@@ -63,7 +42,7 @@
             </svg>
           </div>
 
-          <div class="blue-line mx-auto"></div>
+          <div class="w-[1px] h-48 my-5 bg-[#3393FB] mx-auto"></div>
 
           <div class="icon">
             <svg
@@ -81,7 +60,7 @@
               />
             </svg>
           </div>
-          <div class="blue-line mx-auto"></div>
+          <div class="w-[1px] h-48 my-5 bg-gray-div mx-auto"></div>
 
           <div class="icon">
             <svg
@@ -99,7 +78,7 @@
               />
             </svg>
           </div>
-          <div class="blue-line mx-auto"></div>
+          <div class="w-[1px] h-48 my-5 bg-gray-div mx-auto"></div>
 
           <div class="icon">
             <svg
@@ -117,13 +96,12 @@
               />
             </svg>
           </div>
-          <div class="blue-line mx-auto"></div>
         </div>
 
         <div class="content-parent">
           <div class="content">
             <h1 class="">Tell us your needs</h1>
-            <p>
+            <p class="leading-8">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, officiis
               officia nulla asperiores corrupti voluptates ipsa, pariatur eius autem modi
               repellendus reiciendis? Ipsa fugit necessitatibus culpa omnis. Dolorem,
@@ -132,7 +110,7 @@
           </div>
           <div class="content">
             <h1 class="">Interview developers</h1>
-            <p>
+            <p class="leading-8">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, officiis
               officia nulla asperiores corrupti voluptates ipsa, pariatur eius autem modi
               repellendus reiciendis? Ipsa fugit necessitatibus culpa omnis. Dolorem,
@@ -141,7 +119,7 @@
           </div>
           <div class="content">
             <h1 class="">Sign the contract</h1>
-            <p>
+            <p class="leading-8">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, officiis
               officia nulla asperiores corrupti voluptates ipsa, pariatur eius autem modi
               repellendus reiciendis? Ipsa fugit necessitatibus culpa omnis. Dolorem,
@@ -150,7 +128,7 @@
           </div>
           <div class="content">
             <h1 class="">Onboarding</h1>
-            <p>
+            <p class="leading-8">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, officiis
               officia nulla asperiores corrupti voluptates ipsa, pariatur eius autem modi
               repellendus reiciendis? Ipsa fugit necessitatibus culpa omnis. Dolorem,
@@ -167,6 +145,6 @@
 
 <script>
 export default {
-  name: "howToWorks",
+  name: "howItWork",
 };
 </script>

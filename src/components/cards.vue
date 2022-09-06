@@ -1,7 +1,7 @@
 <template>
   <main class="cardSection">
     <section class="">
-      <h1 class="text-6xl font-bold">
+      <h1 class="text-6xl font-bold leading-tight">
         Hiring Great
         <span
           class="text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#0C86D7] to-[#46B493]"
@@ -57,7 +57,7 @@
         <div class="text-card bg-cover bg-[url('assets/text-cards-images/1.svg')]">
           <h2 class="pb-20">01.</h2>
           <h1>Best Talent</h1>
-          <h3>
+          <h3 class="leading-8">
             Each developer at micro1 goes through a series of tests and interviews before
             becoming micro1 certified. You also get 1 week free to test the developerout
             for yourself.
@@ -66,7 +66,7 @@
 
         <div class="text-card bg-cover bg-[url('assets/text-cards-images/2.svg')]">
           <h1>Don't Worry about Legal Issues</h1>
-          <h3>
+          <h3 class="leading-8">
             We Hire the developer directly and you hire us. This means you won't have to
             worry about creating an entity in the country of hire and you don't have to
             worry about the local laws. We take care of all this for you.
@@ -76,7 +76,7 @@
 
         <div class="text-card bg-cover bg-[url('assets/text-cards-images/3.svg')]">
           <h1>We Take Care of Benefits</h1>
-          <h3>
+          <h3 class="leading-8">
             We Hire the developer directly and you hire us. This means you won't have to
             worry about creating an entity in the country of hire and you don't have to
             worry about the local laws. We take care of all this for you.
@@ -87,7 +87,7 @@
         <div class="text-card bg-cover bg-[url('assets/text-cards-images/4.svg')]">
           <h2 class="pb-10">04.</h2>
           <h1>Fully Dedicated in Your Company</h1>
-          <h3>
+          <h3 class="leading-8">
             Once you choose a developer, they will be in direct contact with you and fully
             dedicated in your company. Whether you want them o join your slack, hope on
             meetings, or anything else, it's totally up to you. We take care of payroll

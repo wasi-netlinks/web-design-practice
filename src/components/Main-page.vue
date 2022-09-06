@@ -1,27 +1,14 @@
 <template>
   <main class="">
-    <nav class="flex items-center py-10 justify-between">
-      <ul class="flex text-sm w-6/12">
-        <li class="border-r-[1px] border-[#555353] pr-5">
-          <a href="#"><img src="../image 1.png" alt="" /></a>
-        </li>
-        <li><a href="#">How we hire</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">How it works</a></li>
-      </ul>
-
-      <div class="flex items-center">
-        <a href="#" class="mr-4">Apply as a developer</a>
-        <button class="btn-primary">Hire Top Talent</button>
-      </div>
-    </nav>
+    <navbar />
     <img src="../hero-image.png" alt="" class="absolute top-0 right-0 -z-10" />
 
-    <div class="h-96"></div>
+    <div class="h-80"></div>
+    <div class="h-24"></div>
 
     <!-- This is Fist and Inter Section -->
     <section class="">
-      <h1 class="text-7xl w-10/12 font-bold">
+      <h1 class="text-7xl w-10/12 font-bold tracking-tight">
         Hire the Best
         <span
           class="text-transparent bg-clip-text bg-gradient-to-r from-[#017DE3] to-[#47B492]"
@@ -29,35 +16,13 @@
         >
         from $25/hour
       </h1>
-      <p class="my-8 text-xl text-[#AAAAAA]">
+      <p class="mt-8 mb-10 text-xl text-[#AAAAAA]">
         The first week of your hire is 100% Free. No question asked
       </p>
       <div class="flex items-center w-full">
-        <button class="flex btn-primary">
+        <button class="btn-primary flex items-center">
           <span class="">Hire top Developer</span>
-
-          <svg
-            width="24"
-            height="25"
-            viewBox="0 0 24 25"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M14.4299 6.42993L20.4999 12.4999L14.4299 18.5699"
-              stroke="#292D32"
-              stroke-width="1.5"
-              stroke-miterlimit="10"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M3.5 12.5H20.33"
-              stroke="#292D32"
-              stroke-width="1.5"
-              stroke-miterlimit="10"
-              stroke-linejoin="round"
-            />
-          </svg>
+          <i class="isax isax-arrow-right-1 text-xl text-black ml-2"></i>
         </button>
         <div
           class="flex justify-center items-center border-dashed border-2 border-white rounded-full w-14 h-14 ml-5"
@@ -88,10 +53,10 @@
 
     <!-- This is Companys Brands Section -->
     <div class="flex justify-center mb-10">
-      <p>Trusted Partners</p>
+      <p class="text-2xl">Trusted Partners</p>
     </div>
-    <div class="border-y-2 border-gray-600">
-      <ul class="flex justify-around items-center py-8">
+    <div class="border-y border-1 border-gray-600">
+      <ul class="flex justify-between items-center py-8">
         <li>
           <a href="#"><img src="../assets/barand-images/image 2.png" alt="" /></a>
         </li>
@@ -114,6 +79,7 @@
 </template>
 
 <script>
+import navbarVue from "./navbar.vue";
 export default {
   name: "mainPage",
 };

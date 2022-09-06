@@ -11,13 +11,14 @@
               >Best Technologies</span
             >
           </h1>
-          <p class="text-[#AAAAAA] text-2xl mt-8">
+          <p class="text-[#AAAAAA] text-2xl mt-8 leading-[45px]">
             Our expertise is in modern technology, design, and UI/UX. We believe that
             developers start with having knowledge of the best way to tackle the problem
             with the most effective solutions.
           </p>
         </div>
-        <div class="grid grid-cols-5 w-6/12">
+        <img src="../assets/Group 218.png" alt="" />
+        <!-- <div class="grid grid-cols-5 w-6/12">
           <div class="dashed-d border-b-[1px] border-[#464646] border-dashed p-3"></div>
           <div class="dashed-d border-l-[1px] border-[#464646] border-dashed p-3"></div>
           <div class="dashed-d border-l-[1px] border-[#464646] border-dashed p-3"></div>
@@ -73,11 +74,11 @@
           <div class="dashed-d border-l border-[#464646] border-dashed p-3"></div>
           <div class="dashed-d border-l border-[#464646] border-dashed p-3"></div>
           <div class="dashed-d border-l border-[#464646] border-dashed p-3"></div>
-        </div>
+        </div> -->
       </div>
 
       <div class="mt-52 gap-1 flex">
-        <div class="laCard bg-[#151515] w-6/12 py-16 px-20">
+        <div class="laCard bg-[#151515] w-5/12 py-16 px-10">
           <h1 class="text-3xl font-bold mb-10">
             We Ensure Productivity with our
             <span
@@ -85,7 +86,7 @@
               >Management Tool</span
             >
           </h1>
-          <p class="text-[#929292]">
+          <p class="text-[#929292] text-lg leading-[29px]">
             To start, each engineer download our staff management tool to keep frack of
             their hours. Ts tool also takes series of screenshots every 10 minutes, and
             has URL tracking to ensure good use of time.We will also send you a weekly
@@ -93,37 +94,52 @@
           </p>
         </div>
 
-        <div class="laCard w-6/12 bg-[#151515] py-16 px-14">
-          <div class="small-cards mb-5 flex">
-            <div>
-              <h1 class="font-bold text-2xl">Screenshots</h1>
+        <div class="laCard w-6/12 bg-[#151515] py-16 px-10">
+          <div class="small-cards mb-5 flex justify-between">
+            <div class="w-9/12">
+              <h1 class="font-bold text-2xl mb-2">Screenshots</h1>
               <p class="text-[#AAAAAA]">
                 Ts innovative tool captures a series of screenshots of your virtual
                 assistants device every 10 minutes.
               </p>
             </div>
-            <img src="../assets/small-cards-images/1.png" alt="" />
+            <img
+              src="../assets/small-cards-images/1.png"
+              alt=""
+              class="w-[71px] h-[71px]"
+            />
           </div>
 
           <div class="small-cards mb-5 flex justify-between">
-            <div>
-              <h1 class="font-bold text-2xl">URL Tracking</h1>
+            <div class="w-9/12">
+              <h1 class="font-bold text-2xl mb-2">URL Tracking</h1>
               <p class="text-[#AAAAAA]">
                 Our team monitors agent URLs to ensure that agents are working efficiently
                 on your tasks.
               </p>
             </div>
-            <img src="../assets/small-cards-images/2.png" alt="" />
+            <img
+              src="../assets/small-cards-images/2.png"
+              alt=""
+              class="w-[71px] h-[71px]"
+            />
           </div>
 
-          <div class="small-cards mb-5 flex justify-around">
-            <div>
-              <h1 class="font-bold text-2xl">Daily Reports</h1>
+          <div class="small-cards mb-5 flex justify-between">
+            <div class="w-9/12">
+              <h1 class="font-bold text-2xl mb-2">Daily Reports</h1>
               <p class="text-[#AAAAAA]">
                 Our team sends daily and weekly reports with all completed tasks.
               </p>
+
+              <p></p>
             </div>
-            <img src="../assets/small-cards-images/3.png" alt="" />
+
+            <img
+              src="../assets/small-cards-images/3.png"
+              alt=""
+              class="w-[71px] h-[71px]"
+            />
           </div>
         </div>
       </div>
