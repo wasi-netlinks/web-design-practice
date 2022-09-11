@@ -2,8 +2,8 @@
   <main class="">
     <!-- Ts is ending Section -->
     <section>
-      <div class="tecSection flex w-full">
-        <div class="tecFirstPart w-7/12 mt-16">
+      <div class="tecSection w-full md:flex block">
+        <div class="tecFirstPart w-full md:w-7/12 mt-16">
           <h1 class="text-5xl font-bold mb-3">
             We use the
             <span
@@ -17,7 +17,11 @@
             with the most effective solutions.
           </p>
         </div>
-        <img src="../assets/Group 218.png" alt="" />
+        <img
+          src="../assets/Group 218.png"
+          alt=""
+          class="w-full md:w-4/12 md:ml-10 ml-0"
+        />
         <!-- <div class="grid grid-cols-5 w-6/12">
           <div class="dashed-d border-b-[1px] border-[#464646] border-dashed p-3"></div>
           <div class="dashed-d border-l-[1px] border-[#464646] border-dashed p-3"></div>
@@ -77,8 +81,8 @@
         </div> -->
       </div>
 
-      <div class="mt-52 gap-1 flex">
-        <div class="laCard bg-[#151515] w-5/12 py-16 px-10">
+      <div class="mt-52 grid grid-cols-1 md:grid-cols-2 gap-1">
+        <div class="laCard bg-[#151515] py-16 px-10 w-full">
           <h1 class="text-3xl font-bold mb-10">
             We Ensure Productivity with our
             <span
@@ -94,7 +98,7 @@
           </p>
         </div>
 
-        <div class="laCard w-6/12 bg-[#151515] py-16 px-10">
+        <div class="laCard w-full bg-[#151515] py-16 px-10">
           <div class="small-cards mb-5 flex justify-between">
             <div class="w-9/12">
               <h1 class="font-bold text-2xl mb-2">Screenshots</h1>

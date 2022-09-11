@@ -1,7 +1,7 @@
 <template>
   <main class="">
     <section class="text-center my-20">
-      <h1 class="mb-10 text-[28px]">Awwards</h1>
+      <h1 class="mb-10 md:text-[28px] text-1xl">Awwards</h1>
 
       <div class="awards-main flex justify-around">
         <div class="circle">

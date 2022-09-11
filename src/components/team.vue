@@ -2,7 +2,7 @@
   <main class="py-32">
     <!-- This is Team Section -->
     <section class="mt-10">
-      <h1 class="text-center text-5xl font-bold">
+      <h1 class="text-center md:text-5xl text-3xl font-bold">
         Here's a Few Micro1 <br />
         <span
           class="text-transparent bg-clip-text bg-gradient-to-r from-[#337EFF] to-[#33FFE7]"
@@ -10,7 +10,7 @@
         >
       </h1>
 
-      <div class="grid grid-cols-3 gap-1 mt-20">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-1 mt-20">
         <div class="person">
           <img src="../assets/person-images/1.png" alt="" />
           <div class="person-content flex flex-col text-center">

@@ -3,12 +3,12 @@
     <navbar />
     <img src="../hero-image.png" alt="" class="absolute top-0 right-0 -z-10" />
 
-    <div class="h-80"></div>
+    <div class="md:h-80 h-20"></div>
     <div class="h-24"></div>
 
     <!-- This is Fist and Inter Section -->
     <section class="">
-      <h1 class="text-7xl w-10/12 font-bold tracking-tight">
+      <h1 class="md:text-7xl text-3xl w-10/12 font-bold tracking-tight">
         Hire the Best
         <span
           class="text-transparent bg-clip-text bg-gradient-to-r from-[#017DE3] to-[#47B492]"
@@ -16,7 +16,7 @@
         >
         from $25/hour
       </h1>
-      <p class="mt-8 mb-10 text-xl text-[#AAAAAA]">
+      <p class="md:mt-8 mt-4 md:mb-10 mb-5 md:text-xl text-sm text-[#AAAAAA]">
         The first week of your hire is 100% Free. No question asked
       </p>
       <div class="flex items-center w-full">
@@ -25,9 +25,9 @@
           <i class="isax isax-arrow-right-1 text-xl text-black ml-2"></i>
         </button>
         <div
-          class="flex justify-center items-center border-dashed border-2 border-white rounded-full w-14 h-14 ml-5"
+          class="flex justify-center items-center border-dashed border-2 border-white rounded-full md:w-14 w-7 md:h-14 h-7 ml-5"
         >
-          <i class="">
+          <i class="md:text-xl sm">
             <svg
               width="14"
               height="16"
@@ -53,23 +53,23 @@
 
     <!-- This is Companys Brands Section -->
     <div class="flex justify-center mb-10">
-      <p class="text-2xl">Trusted Partners</p>
+      <p class="md:text-2xl text-xl">Trusted Partners</p>
     </div>
-    <div class="border-y border-1 border-gray-600">
-      <ul class="flex justify-between items-center py-8">
-        <li>
+    <div class="border-y border-1 border-gray-600 m-auto">
+      <ul class="flex flex-wrap mx-10 md:mx-0 md:flex md:justify-between w-full py-8">
+        <li class="m-1 md:m-0">
           <a href="#"><img src="../assets/barand-images/image 2.png" alt="" /></a>
         </li>
-        <li>
+        <li class="m-1 md:m-0">
           <a href="#"><img src="../assets/barand-images/image 3.png" alt="" /></a>
         </li>
-        <li>
+        <li class="m-1 md:m-0">
           <a href="#"><img src="../assets/barand-images/image 4.png" alt="" /></a>
         </li>
-        <li>
+        <li class="m-1 md:m-0">
           <a href="#"><img src="../assets/barand-images/image 5.png" alt="" /></a>
         </li>
-        <li>
+        <li class="m-1 md:m-0">
           <a href="#"><img src="../assets/barand-images/image 6.png" alt="" /></a>
         </li>
       </ul>
@@ -79,7 +79,6 @@
 </template>
 
 <script>
-import navbarVue from "./navbar.vue";
 export default {
   name: "mainPage",
 };

@@ -2,7 +2,7 @@
   <main class="">
     <!-- This is How to work Section -->
     <section class="mt-24 flex">
-      <div class="grid grid-cols-3">
+      <div class="grid grid-cols-1 md:grid md:grid-cols-3">
         <div class="">
           <h1 class="text-5xl font-bold">
             How it
@@ -16,14 +16,14 @@
             becoming micro1 certified. You also get 1 week free to test the developer out
             for yourself.
           </p>
-          <button class="btn-primary flex mt-11">
+          <button class="btn-primary flex md:mt-11 mt-5 mb-14 md:mb-0">
             Hire Top Talent
 
             <i class="isax isax-arrow-right-1 text-xl text-black ml-2"></i>
           </button>
         </div>
 
-        <div class="icons flex flex-col items-center ml-20">
+        <div class="icons md:flex md:flex-col md:items-center hidden ml-20">
           <div class="bg-white w-12 h-12 flex rounded-3xl">
             <svg
               class="m-auto"

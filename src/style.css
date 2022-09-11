@@ -12,11 +12,8 @@
 }
 
 @layer components {
-  nav > ul > li {
-    @apply mr-10;
-  }
   .btn-primary {
-    @apply bg-white text-black rounded-full px-7 py-3 w-auto;
+    @apply bg-white text-black rounded-full md:px-7 px-3 md:py-3 py-1 w-auto;
   }
   .btn-primary > svg {
     @apply ml-3;
@@ -70,9 +67,9 @@
 
 @layer components {
   .circle {
-    @apply border border-gray-800 rounded-full w-[182px] h-[183px] flex items-center justify-center;
+    @apply border border-gray-800 rounded-full md:w-[182px] w-[70px] md:h-[183px] h-16 flex items-center justify-center;
   }
   .circle > img {
-    @apply h-[71px];
+    @apply md:h-[71px] h-10;
   }
 }

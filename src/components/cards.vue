@@ -1,7 +1,7 @@
 <template>
   <main class="cardSection">
     <section class="">
-      <h1 class="text-6xl font-bold leading-tight">
+      <h1 class="md:text-6xl text-3xl font-bold leading-tight">
         Hiring Great
         <span
           class="text-transparent font-bold bg-clip-text bg-gradient-to-r from-[#0C86D7] to-[#46B493]"
@@ -11,7 +11,7 @@
         is Hard
       </h1>
 
-      <div class="grid grid-cols-3 gap-4 pt-14">
+      <div class="grid grid-cols-1 gap-1 md:grid-cols-3 md:gap-1 pt-14">
         <div class="card">
           <img src="../assets/vector-images/User.png" alt="" />
           <p class="mt-10 w-[212px]">
@@ -32,7 +32,7 @@
 
       <div class="h-24"></div>
 
-      <div class="grid grid-cols-3 gap-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div>
           <div
             class="w-[2px] h-40 bg-gradient-to-b from-[#33FFE7] to-[#337EFF40] ml-40"
