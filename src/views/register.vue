@@ -1,5 +1,4 @@
 <template>
-  <Navbar class="mt-10" />
   <main>
     <div class="wrapper justify-center h-screen flex bg-gray-400 rounded-lg mt-20">
       <div class="form-wrapper bg-white p-10 m-auto w-96 shadow">

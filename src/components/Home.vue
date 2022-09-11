@@ -7,10 +7,8 @@ import team from "./Team.vue";
 import howItWork from "./HowItWork.vue";
 import ending from "./Ending.vue";
 import fooTer from "./Footer.vue";
-import Navbar from "./Navbar.vue";
 </script>
 <template>
-  <Navbar />
   <MainPage />
   <cardSection />
   <team />

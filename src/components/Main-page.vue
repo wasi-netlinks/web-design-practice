@@ -1,6 +1,5 @@
 <template>
   <main class="">
-    <navbar />
     <img src="../hero-image.png" alt="" class="absolute top-0 right-0 -z-10" />
 
     <div class="md:h-80 h-20"></div>
@@ -27,9 +26,9 @@
         <div
           class="flex justify-center items-center border-dashed border-2 border-white rounded-full md:w-14 w-7 md:h-14 h-7 ml-5"
         >
-          <i class="md:text-xl sm">
+          <i class="">
             <svg
-              width="14"
+              width="9"
               height="16"
               viewBox="0 0 14 16"
               fill="none"
@@ -56,7 +55,7 @@
       <p class="md:text-2xl text-xl">Trusted Partners</p>
     </div>
     <div class="border-y border-1 border-gray-600 m-auto">
-      <ul class="flex flex-wrap mx-10 md:mx-0 md:flex md:justify-between w-full py-8">
+      <ul class="flex flex-wrap justify-between md:flex md:justify-between w-full py-8">
         <li class="m-1 md:m-0">
           <a href="#"><img src="../assets/barand-images/image 2.png" alt="" /></a>
         </li>

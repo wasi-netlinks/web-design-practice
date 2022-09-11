@@ -54,10 +54,10 @@
         </div>
       </div>
 
-      <div class="flex justify-between py-5">
-        <h1 class="text-[26px] font-bold">2020</h1>
-        <h1 class="text-[26px] font-bold">2021</h1>
-        <h1 class="text-[26px] font-bold">2022</h1>
+      <div class="flex justify-between py-5 md:text-2xl text-lg">
+        <h1 class="">2020</h1>
+        <h1 class="">2021</h1>
+        <h1 class="">2022</h1>
       </div>
     </section>
   </main>
