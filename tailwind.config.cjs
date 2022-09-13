@@ -28,6 +28,7 @@ module.exports = {
       },
       colors: {
         "gray-div": "#282828",
+        "ragister-gray": "#909BAA",
       },
       text: {
         "1px": "1px",

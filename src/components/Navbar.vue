@@ -59,7 +59,7 @@
           </ul>
           <div class="flex flex-wrap justify-center items-center md:text-sm mt-3 md:mt-0">
             <a href="#" class="mr-4">Apply as a developer</a>
-            <router-link to="/register" class="btn-primary">Hire Top Talent</router-link>
+            <router-link to="/register" class="btn-primary">Register</router-link>
           </div>
         </div>
       </div>
