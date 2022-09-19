@@ -1,6 +1,8 @@
 <template>
   <main class="my-20">
-    <div class="wrapper md:grid md:grid-cols-2 h-auto bg-[#272A37] rounded-lg w-full">
+    <div
+      class="wrapper md:grid md:grid-cols-2 h-auto bg-[#272A37] rounded-lg w-full"
+    >
       <form class="mx-10 my-20">
         <div class="heading mb-20">
           <p class="uppercase text-ragister-gray font-bold">start for free</p>
@@ -24,6 +26,7 @@
               class="bg-[#323644] border border-gray-300 text-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-4 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="John"
               required=""
+              v-model="firstname"
             />
           </div>
           <div>
@@ -38,6 +41,7 @@
               class="bg-[#323644] border border-gray-300 text-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-4 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="Doe"
               required=""
+              v-model="lastname"
             />
           </div>
           <div>
@@ -51,8 +55,8 @@
               id="phone"
               class="bg-[#323644] border border-gray-300 text-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-4 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="123-45-678"
-              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
               required=""
+              v-model="phone"
             />
           </div>
         </div>
@@ -68,6 +72,7 @@
             class="bg-[#323644] border border-gray-300 text-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-4 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="john.doe@company.com"
             required=""
+            v-model="email"
           />
         </div>
         <div class="mb-6">
@@ -82,6 +87,7 @@
             class="bg-[#323644] border border-gray-300 text-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-4 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="•••••••••"
             required=""
+            v-model="password"
           />
         </div>
 
@@ -105,6 +111,7 @@
           >
         </div>
         <button
+          @click="inviaForm"
           type="submit"
           class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
         >
@@ -122,6 +129,26 @@
   </main>
 </template>
 <script>
-import Navbar from "../components/navbar.vue";
-export default { name: "register", components: { Navbar } };
+
+export default { 
+  data() {
+    return {
+      firstname: '',
+      lastname: '',
+      phone: '',
+      email: '',
+      password: ''
+    }
+  },
+  methods: {
+    inviaForm() {
+      localStorage.setItem('firstname', this.firstname)
+      localStorage.setItem('lastname', this.lastname)
+      localStorage.setItem('phone', this.phone)
+      localStorage.setItem('email', this.email)
+      localStorage.setItem('password', this.password)
+    }
+  }
+ };
+
 </script>
